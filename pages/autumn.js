@@ -7,10 +7,10 @@ import Main from "../components/Main";
 import Month from "../components/Month";
 import YatesFooter from "../components/YatesFooter";
 
-export default function Page (props) {
+export default function Page(props) {
 
 
-    useEffect(()=>{
+    useEffect(() => {
         console.log("props", props);
     })
 
@@ -43,9 +43,9 @@ export default function Page (props) {
                 <footer>
                     <h3>Click to discover other seasons’ lawn care guides</h3>
                     <nav>
-                        <a href="./winter.html">Winter Lawn Guide</a>
-                        <a href="./spring.html">Spring Lawn Guide</a>
-                        <a href="./summer.html">Summer Lawn Guide</a>
+                        <a href="./winter/">Winter Lawn Guide</a>
+                        <a href="./spring/">Spring Lawn Guide</a>
+                        <a href="./summer/">Summer Lawn Guide</a>
                     </nav>
                     <p><small><sup>&reg;</sup>Yates and Yates Weed n Feed are registered trade marks of DuluxGroup (Australia) Pty Ltd. <sup>&reg;</sup>Baythroid is registered trade mark of the Bayer Group. ™ Waterwise and Great things start with Yates is a trade mark of DuluxGroup (Australia) Pty Ltd. </small></p>
                 </footer>
@@ -60,7 +60,7 @@ export async function getStaticProps(context) {
         props: {
             "season": "autumn",
             "label": "Autumn",
-            more: 'https://www.yates.com.au/lawn/grow/autumn-lawn-care-tips/',
+            more: 'https://www.yates.com.au/lawn/grow/autumn-lawn-care-tips/?utm_medium=lawn_care_tips_microsite&utm_campaign=lawn_care_tips_2021',
             months: [
                 {
                     title: "Prepare your lawn for Winter",
