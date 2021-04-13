@@ -9,11 +9,9 @@ import YatesFooter from "../components/YatesFooter";
 
 export default function Page(props) {
 
-
     useEffect(() => {
         console.log("props", props);
     })
-
 
     return (
         <Main>
