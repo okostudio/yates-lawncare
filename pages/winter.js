@@ -58,7 +58,7 @@ export async function getStaticProps(context) {
         props: {
             "season": "winter",
             "label": "Winter",
-            more: 'https://www.yates.com.au/lawn/grow/winter-lawn-care-tips/?utm_medium=lawn_care_tips_microsite&utm_campaign=lawn_care_tips_2021',
+            more: 'https://www.yates.com.au/lawn/grow/winter-lawn-care-tips/?utm_source=Product_Packaging&utm_medium=QR_Code&utm_campaign=Yates_Weed_n_Feed_2021_Trial',
             months: [
                 {
                     title: "Now’s the time to trim &amp; tidy",
